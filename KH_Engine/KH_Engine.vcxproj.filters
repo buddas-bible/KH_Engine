@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Define">
+      <UniqueIdentifier>{8c75ae0b-4492-4a6e-9082-9283dc6e8a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\Convert">
+      <UniqueIdentifier>{e0b4540d-82c1-4984-b50a-774ebd224440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main">
+      <UniqueIdentifier>{e3eec53e-f944-47d9-aabb-621b861a60f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Input">
+      <UniqueIdentifier>{a3ec1e21-7f39-430a-b735-3f57c698bfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Time">
+      <UniqueIdentifier>{beca1cef-707a-4c61-bcd0-157bf5c11b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Main\MainLoop">
+      <UniqueIdentifier>{cce9067d-310a-4d96-8357-96f45e0ea7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics">
+      <UniqueIdentifier>{1d9c8509-b6c2-43c9-8063-70bbef069d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\CollisionDetection">
+      <UniqueIdentifier>{e5def8eb-3e61-4e5f-a237-95af41176f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\Object">
+      <UniqueIdentifier>{3f39ca34-a1bc-4ce3-aa40-f31fd4cf405b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\OnCollision">
+      <UniqueIdentifier>{8902feb9-cff3-4c82-ae1f-f98f53e15a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\Contact">
+      <UniqueIdentifier>{08228099-965c-4719-8b03-e8572f8c7d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Math">
+      <UniqueIdentifier>{1eb8c8cb-ede0-4689-9823-563f1d733339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Math\Vector2D">
+      <UniqueIdentifier>{adba2c59-b87c-4904-905e-6d82396fbc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Math\Matrix">
+      <UniqueIdentifier>{e6be3148-7aad-4a69-be7b-c4ac2311153b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Math\Vector3D">
+      <UniqueIdentifier>{7652ecc8-8cfb-49ae-b92f-ea9a69000f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\ColliderManager">
+      <UniqueIdentifier>{d2185c34-32ef-42e6-ba64-9916a198c665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\ColliderManager\Collider">
+      <UniqueIdentifier>{391d4fd1-4d16-4dda-8dec-66df44b67294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\RigidBodyManager">
+      <UniqueIdentifier>{09e735a2-c8b4-4d6a-a2cd-7f4dd1937a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\SoftBodyManager">
+      <UniqueIdentifier>{87743705-d67d-4808-97ae-8d0d5f4e4ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\SoftBodyManager\SoftBody">
+      <UniqueIdentifier>{32e54124-9e8d-4234-8075-cdd41618b2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\RigidBodyManager\RigidBody">
+      <UniqueIdentifier>{93e99c9b-7748-4498-b5ec-a0e8902d0281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Physics\ColliderManager\ColliderList">
+      <UniqueIdentifier>{b41342cc-9c59-4f94-93ae-c176d5d2ad72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>3. Math\Vector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>3. Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>2. Physics\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCollider.cpp">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCollider.cpp">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>4. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>5. Time</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>3. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderList.cpp">
+      <Filter>2. Physics\ColliderManager\ColliderList</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>Define\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>1. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>1. Main\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>2. Physics\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCollision.cpp">
+      <Filter>2. Physics\OnCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>3. Math\Vector3D</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>2. Physics\RigidBodyManager\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>2. Physics\Contact</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>2. Physics\Contact</Filter>
+    </ClCompile>
+    <ClCompile Include="Manifold.cpp">
+      <Filter>2. Physics\Contact</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftBody.cpp">
+      <Filter>2. Physics\SoftBodyManager\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>2. Physics\SoftBodyManager\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyManager.cpp">
+      <Filter>2. Physics\RigidBodyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftBodyManager.cpp">
+      <Filter>2. Physics\SoftBodyManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2D.h">
+      <Filter>3. Math\Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="KH_Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>3. Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>2. Physics\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCollider.h">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>2. Physics\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonCollider.h">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCollider.h">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>4. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>5. Time</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>2. Physics\ColliderManager\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderList.h">
+      <Filter>2. Physics\ColliderManager\ColliderList</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>3. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>Define\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop.h">
+      <Filter>1. Main\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>2. Physics\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCollision.h">
+      <Filter>2. Physics\OnCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>3. Math\Vector3D</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>2. Physics\RigidBodyManager\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>2. Physics\Contact</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>2. Physics\Contact</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifold.h">
+      <Filter>2. Physics\Contact</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftBody.h">
+      <Filter>2. Physics\SoftBodyManager\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>2. Physics\SoftBodyManager\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyManager.h">
+      <Filter>2. Physics\RigidBodyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftBodyManager.h">
+      <Filter>2. Physics\SoftBodyManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
